@@ -1,0 +1,67 @@
+body{
+    height: 100vh;
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    color: rgb(86, 139, 121);
+    margin-left: 20px;
+}
+.topnav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: solid 2px grey;
+}
+.elements{
+    list-style: none;
+    font-size: 30px;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin-right: 20px;
+}
+
+/*Body*/
+.main{
+    background-color: rgba(127, 255, 212, 0);
+    width: 100vw;
+    height: 90vh;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+.maxContainer {
+    width: 50%;
+}
+.maxPic{
+    width: 70%;
+    height: auto;
+    margin-left: 10%;
+   
+}
+.text{
+    font-size: 35px;
+    background-color: rgb(229, 179, 117);
+    border: solid 2px grey;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right:5%;
+    height: 60%;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+p{
+  font-weight: bold; 
+}
